@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-logo {
+    width: 10%;
+    margin-right: 0.5rem;
+}
