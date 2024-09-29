@@ -6,3 +6,12 @@
     width: 5%;
     margin-right: 0.5rem;
 }
+
+.feature-icon {
+    display: inline-flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    font-size: 1.5rem;
+}
