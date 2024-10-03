@@ -63,30 +63,30 @@
                 <!-- Forms -->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-6">
-                        <form action="">
+                        <form action="https://formsubmit.co/k_unalan@hotmail.com" method="post">
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="name" placeholder="Adınız Soyadınız"
+                                <input type="text" class="form-control" id="name" name="full-name" placeholder="Adınız Soyadınız"
                                 required>
                                 <label for="name">Adınız Soyadınız</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com"
+                                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com"
                                 required>
                                 <label for="email">E-Posta Adresiniz</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="tel" class="form-control" id="phoneNumber" placeholder="" required>
+                                <input type="tel" class="form-control" id="phoneNumber" name="phone-number" placeholder="" required>
                                 <label for="phoneNumber">Telefon Numaranız</label>
                             </div>
                             <div class="form-floating">
                                 <textarea class="form-control" placeholder="Mesajınızı yazınız..." id="message"
-                                style="height: 150px" required></textarea>
+                                style="height: 150px" name="user-message" required></textarea>
                                 <label for="message">Mesajınız</label>
                             </div>
                             <div class="d-grid pt-3 pb-4">
-                                <div class="btn btn-primary btn-lg" id="submitButton">
+                                <button type="submit" class="btn btn-primary btn-lg" id="submitButton">
                                     Gönder
-                                </div>
+                                </button>
                             </div>
                         </form>
                     </div>
